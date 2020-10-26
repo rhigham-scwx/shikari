@@ -17,16 +17,17 @@ This issue can be closed when the abstract has been updated and the report has b
 **Tasks**
 - [ ] Validate Security Gap Exists
 - [ ] Validate Data Visibility/Usability
-- [ ] Define/Refine Playbook
-- [ ] Gather and Analyze Data (According to the Playbook)
-- [ ] Update the Abstract
+- [ ] Define/Refine Abstract
+- [ ] Gather and Analyze Data
 - [ ] Write Report
 - [ ] Share Findings
-- [ ] Close Issue
-- [ ] Create New Issue (if needed)
+- [ ] Update the Abstract
+- [ ] Create New Issue to Repeat the Hunt (if needed)
+- [ ] Close this Issue
 
 **Note:** 
 - Incidents should be escalated as they are found.
+- If an abstract does not exist that can be updated and reused, create a new abstract.
 - If you plan to test to make sure the security gap exists through adversary emulation, notify your manager and security operations.
 - If you find inappropriate content or other compliance issues, check with management to determine next steps.
 - If this hunt did not produce logic that can be used to address the known gap, open a new issue to repeat the hunt in the future.
