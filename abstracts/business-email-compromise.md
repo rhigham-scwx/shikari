@@ -24,17 +24,24 @@ Business email compromise has become a very common method of attack.
 
 ## Analytics
 
-### Analytic 1 - Email Forwarding Rules - New Forwarding Rules
+### Analytic 1 - Email Forwarding Rules - Existing Forwarding Rules
+- Look for email forwarding rules using MS Graph API
+- Cross reference the domains in the forwarding rules with tools like Domain Tools
+
+### Analytic 2 - Email Forwarding Rules - New Forwarding Rules
+- Look for Email Forwarding rules set in office activity logs
+- Cross reference the email domains in the forwarding rules with tools like Domain Tools
+- Disregard known good domains
+- Look for rules that forward email to a suspicious/anomalous external email (exfil)
+- Look for rules that forward email to an odd folder (staging)
+- Look for rules that block or hide emails. e.g. prevent reporting suspicious email, signin from new device alerts, etc
+- Look at mailbox logins from suspicious IP addresses
+
 Pseudocode
+
 `Operations, UserID, Paramters{}.Name, Paramters{}.Value Operations = New-InboxRule OR New-TransportRule`
 
-* Disregard known good domains
-* Look for rules that forward email to a suspicious/anomalous external email (exfil)
-* Look for rules that forward email to an odd folder (staging)
-* Look for rules that block or hide emails. e.g. prevent reporting suspicious email, signin from new device alerts, etc
-* UpdateInboxRules
-
-### Analytic 2 - Email Forwarding Rules - Modify Existing Forwarding Rules
+### Analytic 3 - Email Forwarding Rules - Modify Existing Forwarding Rules
 Pseudocode
 `Operations, UserID, Paramters{}.Name, Paramters{}.Value Operations = New-InboxRule OR New-TransportRule`
 
@@ -42,7 +49,7 @@ Pseudocode
 * ForwardingSMTPAddress
 * ForwardingAddress
 
-### Analytic 2 - Lateral Movement
+### Analytic 4 - Lateral Movement
 Pseudocode
 ``` 
 CreationDate, Operations, UserIds, ClientProcessName, SendOnBehalfOfUserSmtp, EmailSubject
@@ -51,7 +58,7 @@ CreationDate, Operations, UserIds, ClientProcessName, SendOnBehalfOfUserSmtp, Em
   Add-RecipientPermission
   SendOnBehalf
 ```
-### Analytic 3 - Suspicious Login Activity
+### Analytic 5 - Suspicious Login Activity
 
 ```
 MailboxLogin;
