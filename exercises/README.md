@@ -2,7 +2,7 @@
 
 |Exercise|Launcher|
 |--|--|
-|Jupyter Notebooks Intro|[![Binder](https://mybinder.org/badge_logo.svg)](https://hub.gke2.mybinder.org/user/rhigham-scwx-shikari-dubko5ab/notebooks/exercises/01_intro_to_jupyter_notebooks.ipynb)|
+|Jupyter Notebooks Intro|[Jupyter Notebooks Intro](01_intro_to_jupyter_notebooks.ipynb)|
 |Jupyter Notebooks Basics|[![Binder](https://mybinder.org/badge_logo.svg)](https://hub.gke2.mybinder.org/user/rhigham-scwx-shikari-dubko5ab/notebooks/exercises/02_jupyter_notebook_basics.ipynb)|
 |pyattck|[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rhigham-scwx/shikari/main?filepath=%2Fexercises%2Fpyattck.ipynb)|
 |Dett&ct Data Sources|[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rhigham-scwx/DeTTECT/master?filepath=data-sources.ipynb)|
