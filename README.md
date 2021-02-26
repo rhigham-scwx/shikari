@@ -1,5 +1,5 @@
 # shikari
-Threat Hunting Content and Workflow Management Training repo based heavily on MITRE ATT&CK and the TaHiTI Threat Hunting Methodology
+Threat hunting content and workflow management training repo based heavily on MITRE ATT&CK and the TaHiTI Threat Hunting Methodology
 
 ![TaHiTI Methodology](/resources/tahiti.png)
 
