@@ -3,7 +3,6 @@
 ### what is threat hunting
 * https://sroberts.medium.com/incident-response-is-dead-long-live-incident-response-5ba1de664b95
 * https://www.threathunting.net/files/hunt-evil-practical-guide-threat-hunting.pdf
-* 
 
 ### threat hunting tools and techniques
 * https://drertugrulakbas.medium.com/the-importance-of-siem-list-watchlist-management-and-product-comparisons-3f7cc3395d3f
