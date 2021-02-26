@@ -31,22 +31,22 @@ The `SYSTEM` account is the highest privileged account on a Windows system. The 
 
 Scripting host processes -- such a powershell, command prompt, cscript, and wscript -- are commonly used by adversaries for post-exploitation activities due to their versatility and stealthiness. Script host processes may evaluate and execute instructions that are read from the commandline or from script files (`.ps1`, `.bat`, `.js`, etc.) on disk. Many applications use these scripting host processes for valid purposes and legitimate instances of `SYSTEM`-level script host processes are typically descendants of `svchost.exe`.
 
-> **Exercise note:** In your CB environment over the last 30 days, there were ~358 million processes executed as `SYSTEM`. Approximately 2.4 million of those processes were for `powershell.exe`. Restricting our search to instances of `powershell.exe` executing as `SYSTEM`, but where the parent process is not `svchost.exe` reduces the dataset down to ~101 thousand. Similar orders-of-magnitude reduction in data volume can be found with other scripting host processes. 
+> **Exercise note:** In any environment, there are potentially millions of processes executed as `SYSTEM` in as little as a 30 day window. Restricting our search to instances of `powershell.exe` executing as `SYSTEM`, but where the parent process is not `svchost.exe` reduces the dataset down to a more consumable result set. Similar orders-of-magnitude reduction in data volume can be found with other scripting host processes. 
 
 ## Data Collection
 
-Using the Carbon Black Response web interface, navigate to the _Process Search_ section. Set the time filter dropdown-box to 'Last month', check the box 'Group By Process', then make the following search:
+Using your SIEM or EDR search interface, set search the last 30 days using the following search criteria.
  
 	process_name:powershell.exe AND username:SYSTEM AND -parent_name:svchost.exe
 	
-For other scripting host processes, substitute `powershell.exe` with the process name for the process of interest. And don't forget that powershell can also be executed under the alias of `pwsh.exe`!
+Repeat this search for other scripting host processes. Don't forget that powershell can also be executed under the alias of `pwsh.exe`!
 
-> **Exercise note**: It may also be helpful to add a filter to include or exclude particular sensor groups in Carbon Black.
+> **Exercise note**: Be sure to use whatever groupby, count, and/or visualization tools at your disposal to look at the data in other ways.
 
 
 ## Analysis
 
-Using the 'Parent Process' facet widget to the left of the search results pane, review the list of parent processes for these elevated powershell processes. Work from the bottom of the parent process histogram (ie, the rarest parent processes by frequency) towards the top (the most common), filtering and reviewing results for rare or unusual parent processes.
+Review the parent processes for these elevated powershell processes. Work from the bottom of the list (ie, the rarest parent processes by frequency) towards the top (the most common), filtering and reviewing results for rare or unusual parent processes.
 
 Here are a few things to consider when investigating these anomalous processes:
 
@@ -56,7 +56,7 @@ Here are a few things to consider when investigating these anomalous processes:
 * Look for commandlines that contain specific script files on disk to execute. If possible, confirm whether or not these script files are located in directories that normal users could modify or in temporary directories
 * You might notice that legitimate software is responsible for these processes. Insofar as possible, modify the original search to exclude these known-good applications
 * You might notice that particular systems generate a disproportionate number of these elevated processes. Consider modifying the original search to exclude specific hosts, then re-evaluate the parent process facet histogram to see if the distribution of values has changed substantially
-* If the volume of data is unmanageable, you should consider small variations on the search such as `netconn_count:[1 TO *]` to focus on processes that generate specific events
+* If the volume of data is unmanageable, you should consider small variations on the search to focus on processes that generate specific events
 
 Please document your findings.
 
