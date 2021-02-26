@@ -1,11 +1,11 @@
-# 'Hands-On Hunting' Capstone Scenario
+# 'Hands-On Hunting' Exercises
 
 
 ## Objective
 
-The purpose of the capstone 'hands-on hunting' scenario is to provide an end-to-end, interactive exercise that applies the concepts, workflow, and technical skills discussed during the threat hunting workshop.
+The purpose of the 'hands-on hunting' scenario is to provide an end-to-end, interactive exercise that applies the concepts, workflow, and technical skills discussed during the threat hunting workshop.
 
-In order to better simulate the overall threat hunting workflow described in the workshop, we created a mock Github/Gitlab containing a variety of hunting tasks. These tasks may be completed in any order, but should be prioritized in order to complete as many as possible within the time frame of the exercise.
+In order to better simulate the overall threat hunting workflow described in the workshop, we created a mock Github containing a variety of hunting tasks. These tasks may be completed in any order, but should be prioritized in order to complete as many as possible within the time frame of the exercise.
 
 
 ## Logistics
@@ -17,7 +17,9 @@ Facilitators are available for support during the session, and are happy to answ
 
 ## Scenario Description
 
-This demo Gitlab repository has been pre-populated with a small backlog of hunting tasks and abstracts.
+This demo repository has been pre-populated with a small backlog of threat hunting tasks (issues) and abstracts. The goal is to prioritize the backlog by rating the hunts based on a combination of the amount of effort required and the value, (severity of impact, likelihood of producing true positives, etc), each potential threat hunt might have. The backlog 
+
+> Note: The discussion of whether you have the data comes later and should not play into the effort discussion.
 
 **Backlog Grooming**
 
