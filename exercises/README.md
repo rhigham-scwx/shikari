@@ -1,11 +1,11 @@
-# Torch 7 'Hands-On Hunting' Capstone Scenario
+# 'Hands-On Hunting' Capstone Scenario
 
 
 ## Objective
 
 The purpose of the capstone 'hands-on hunting' scenario is to provide an end-to-end, interactive exercise that applies the concepts, workflow, and technical skills discussed during the threat hunting workshop.
 
-Previous capstone exercises were delivered through written prompts (in slides) that instructed the participants to complete particular tasks. In order to better simulate the overall threat hunting workflow described in the workshop, we created a mock Github/Gitlab containing a variety of hunting tasks. These tasks may be completed in any order, but should be prioritized in order to complete as many as possible within the time frame of the exercise.
+In order to better simulate the overall threat hunting workflow described in the workshop, we created a mock Github/Gitlab containing a variety of hunting tasks. These tasks may be completed in any order, but should be prioritized in order to complete as many as possible within the time frame of the exercise.
 
 
 ## Logistics
@@ -17,7 +17,7 @@ Facilitators are available for support during the session, and are happy to answ
 
 ## Scenario Description
 
-This demo Gitlab repository has been pre-populated with a small backlog of hunting tasks and playbooks.
+This demo Gitlab repository has been pre-populated with a small backlog of hunting tasks and abstracts.
 
 **Backlog Grooming**
 
@@ -25,28 +25,24 @@ Please review the issue backlog and prioritize which hunting tasks you would lik
 
 > Hint: Putting issues in a `blocked` state does not mean you failed the challenge.
 
-**Exploratory Data Analysis**
+**Create Abstract**
 
-For issues labeled `EDA`, it is expected that participants will use ELK or other tools to profile an unfamiliar data source. Follow the guidance in the issue to complete these tasks.
+Participants will try to create an abstract using the provided template for the threats described in the issue. It may not be possible to create an abstract for some threats given the available data (and that's OK).
 
-**Create Playbook**
+**Execute Abstract**
 
-For issues labeled `Create Playbook`, it is expected that participants will try to create a playbook using the provided template for the threats described in the issue. It may not be possible to create a playbook for some threats given the available data (and that's OK).
-
-**Execute Playbook**
-
-For issues labeled `Hunt`, it is expected that participants will try to follow the data collection and analysis steps described in a provided playbook. Please document your findings, as well as open new issues to track any suggested improvements to the playbooks.
+Participants will try to follow the data collection and analysis steps described in a provided abstract. Please document your findings, as well as open new issues to track any suggested improvements to the abstracts.
 
 **Detector Creation**
 
-Upon completion of the hunting playbooks, it is expected that participants will try to create detectors that would help identify relevant threats. Detectors may be created in either EDR or SIEM systems.
+Upon completion of the hunting abstracts, it is expected that participants will try to create detectors that would help identify relevant threats. Detectors may be created in either EDR or SIEM systems.
 
 **(Optional) Learning Git**
 
 A copy of this repository will be shared with participants via OneDrive and (optionally, upon client approval) in GitHub. While not explicitly part of the hunting capstone exercise, participants are encouraged to use `git` to perform some of the following tasks:
 
 * Cloning the repository (`git clone`)
-* Creating a branch (ie, when creating or updating a playbook) (`git checkout`)
+* Creating a branch (ie, when creating or updating an abstract) (`git checkout`)
 * Adding changes to your branch (`git add`)
 * Committing changes (`git commit`)
 * Opening a pull request/merge request (`git push --set-upstream`)
