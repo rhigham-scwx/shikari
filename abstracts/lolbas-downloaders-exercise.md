@@ -67,7 +67,7 @@ Tool used for installation of AppX/MSIX applications on Windows 10
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -100,7 +100,7 @@ Used for managing background intelligent transfer
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -134,7 +134,7 @@ Used for requesting and managing certificates
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -168,7 +168,7 @@ Windows binary used to configure lockscreen/desktop image
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -202,7 +202,7 @@ Binary that package existing files into a cabinet (.cab) file
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -236,7 +236,7 @@ Binary for working with Microsoft Joint Engine Technology (JET) database
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -271,7 +271,7 @@ Microsoft Office binary
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -308,7 +308,7 @@ Binary that expands one or more compressed files
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -340,7 +340,7 @@ Binary that expands one or more compressed files
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -373,7 +373,7 @@ Binary that expands one or more compressed files
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
 
@@ -408,7 +408,7 @@ A binary designed for connecting to FTP servers
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -445,7 +445,7 @@ Remote file download used by the Intel Graphics Control Panel, receives as first
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -482,7 +482,7 @@ Binary used for processing chm files in Windows
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -519,7 +519,7 @@ The IEExec.exe application is an undocumented Microsoft .NET Framework applicati
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -553,7 +553,7 @@ Binary to package existing files into a cabinet (.cab) file
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -588,7 +588,7 @@ Binary part of Windows Defender. Used to manage settings in Windows Defender
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -622,7 +622,7 @@ Microsoft Office binary.
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -656,7 +656,7 @@ Used to replace file with another file
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -691,7 +691,7 @@ Binary to update the existing installed Nuget/squirrel package. Part of Microsof
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -727,7 +727,7 @@ Binary to update the existing installed Nuget/squirrel package. Part of Microsof
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -761,7 +761,7 @@ Microsoft Office binary
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -795,7 +795,7 @@ Windows subsystem for Linux executable
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
@@ -827,7 +827,7 @@ Windows subsystem for Linux executable
 #### Search Queries
 
 
-> Carbon Black query here!
+> Analytic Goes Here!
 
 
  
